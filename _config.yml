@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: ehrobahkuim
+subtitle: Isso é sobre o Joaquim
+description: Um belo dia perguntei uma palavra para meu filho e ele mandou isso..
+keywords: joaquim, blog, ehrobahkuim
+author: Fernando M Tenório
+language: pt
+timezone: America/Sao_Paulo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://blog.dotenorio.com/ehrobahkuim
+root: /ehrobahkuim/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: Geral
 category_map:
 tag_map:
 
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: DD/MM/YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -73,7 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: freemind.386
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
